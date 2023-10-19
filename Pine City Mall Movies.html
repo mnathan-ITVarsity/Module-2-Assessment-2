@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        
+        <title>Movies</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel ="stylesheet" href="Pine%20city%20Mall%20styles.css">
+        
+          
+
+<title>Pine City Mall</title>
+        
+         </head>
+    
+    <body>
+        
+        
+        
+        
+	<section style="background:#C0C0C0; ">
+  <h1>Movies Being Played At Pine City Mall</h1>
+  <nav class="shift">
+    <ul>
+       <li><a href="index.html">Home</a></li>
+      <li><a href="About%20Pine%20City%20Mall.html">About</a></li>
+      <li><a href="Map%20Pine%20CIty%20Mall.html">Map</a></li>
+      <li><a href="List%20of%20shops%20in%20Pine%20City%20Mall.html">Shops</a></li>
+      <li><a href="Pine%20City%20Mall%20Movies.html">Movies</a></li>
+        <li><a href="Pine%20City%20Mall%20Contact%20Page.html">Contact</a></li>
+         
+    </ul>
+  </nav>
+        
+         <h1>Categories:</h1>
+        <center>
+     
+        <div class="dropdown">
+  <button class="dropbtn"><h1>Drama</h1></button>
+  <div class="dropdown-content">
+    <a href="in%20the%20heigths.html">In The Heights</a>
+    <a href="Awake.html">AWAKE</a>
+  </div>
+</div>
+            
+            
+            <div class="dropdown">
+  <button class="dropbtn"><h1>Action</h1></button>
+  <div class="dropdown-content">
+    <a href="Fast%20And%20Furious%209.html">Fast And Furious 9</a>
+    <a href="XTREME.html">XTREME</a>
+  </div>
+</div>
+            
+            <div class="dropdown">
+  <button class="dropbtn"><h1>Horror</h1></button>
+  <div class="dropdown-content">
+    <a href="The%20Conjuring.html">The Conjuring</a>
+    <a href="False%20Positive.html">False Positive</a>
+  </div>
+</div>
+            
+            <div class="dropdown">
+  <button class="dropbtn"><h1>Romance</h1></button>
+  <div class="dropdown-content">
+    <a href="Tripping%20With%20The%20Kandasamys.html">Tripping With The Kandasamys</a>
+    <a href="The%20Bakers%20Son.html">The Bakers Son</a>
+  </div>
+</div>
+        </center>
+
+
+
+
+  	
+        
+        
+        
+        <br/><br/><br/><br/><br/><br/><br/>
+        
+        
+        
+        
+        <center>
+            <div class="content">
+      <div class="images">
+          
+<a href="in%20the%20heigths.html"><img src="images/in%20the%20heights.jpeg"></a>
+          
+<a href="Awake.html"><img src="images/awake-2021.jpeg"></a>
+          
+<a href="Fast%20And%20Furious%209.html"><img src="images/fat%20and%20furious%209%20front%20picture.jpeg"></a>
+          
+<a href="XTREME.html"><img src="images/xtreme%20movie%20name.jpeg"></a>
+          
+<a href="The%20Conjuring.html"><img src="images/the%20conjuting%203.JPG"></a>
+          
+<a href="False%20Positive.html"><img src="images/false%20positive%20movie%20name.jpeg"></a>
+          
+<a href="Tripping%20With%20The%20Kandasamys.html"><img src="images/Tripping%20with%20the%20kandasamys.JPG"></a>
+          
+<a href="The%20Bakers%20Son.html"><img src="images/the-bakers-son-2021-movie-eloise-mumford-brant-daugherty-hallmark-romance-american-netflix-amazon-apple-tv.png"></a>
+          
+      </div>
+</div>
+<script>
+      var indexValue = 0;
+      function slideShow(){
+        setTimeout(slideShow, 2500);
+        var x;
+        const img = document.querySelectorAll("img");
+        for(x = 0; x < img.length; x++){
+          img[x].style.display = "none";
+        }
+        indexValue++;
+        if(indexValue > img.length){indexValue = 1}
+        img[indexValue -1].style.display = "block";
+      }
+      slideShow();
+    </script>
+        </center>
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <br/><br/>
+             </section>
+        
+    </body>
+</html>
